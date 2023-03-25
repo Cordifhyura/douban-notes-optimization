@@ -9,6 +9,6 @@
 
 (附加说明：编辑器里的标题1对应HTML标题的H2)
 
-![Expand](https://avatars2.githubusercontent.com/u/3265208?v=3&s=100)
+![Expand](https://greasyfork.s3.us-east-2.amazonaws.com/bsjt2jo8cr57pdga6zuyw4asfybf)
 
 ![Fold](https://greasyfork.s3.us-east-2.amazonaws.com/efmnq54sqkfflx28l6p0uki0fufk)

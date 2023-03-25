@@ -166,7 +166,11 @@
                     $(".DRE-subject-info").add(":header").find(":contains("+title.trim().replace(/《|》/g,"")+")").last():
                     $(".note").find(":contains("+title.trim().replace(/《|》/g,"")+")").filter(":header,.title-text").last();
                 //  滚动跳转
-                $('html,body').animate({scrollTop:jumper.offset().top - 250}, "fast");
+                /* little tip:
+                    .stop() animation before playing another.
+                    check max and min value of scroll
+                */
+                $('html,body').stop().animate({scrollTop:jumper.offset().top - 250}, "fast");
                 $(target).on(e.type,f);
             });
         };
